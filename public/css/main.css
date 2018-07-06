@@ -1,0 +1,31 @@
+a:hover{
+    text-decoration: none !important;
+}
+
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.spacing{
+    padding: 10px;
+}
+
+.phone {
+    position: relative;
+    top: 25%;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .phone {
+        text-align: center !important;
+    }
+}
